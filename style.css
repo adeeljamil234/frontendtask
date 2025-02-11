@@ -1,0 +1,65 @@
+body{
+
+    font-family: 'Courier New', Courier, monospace;
+    background-color: blueviolet;
+    color: blue;
+    margin:0;
+    padding: 0;
+}
+
+.navbar{
+
+
+    font-size: large;
+    font-weight: bold;
+    color: black;
+}
+
+.navbar-brand{
+    font-size: larger;
+    font-weight: bolder;
+    color: green;
+}
+
+#hero{
+    text-align: center;
+    padding: 80px 20px;
+    background:linear-gradient(red,yellow);
+    color: white;
+}
+#hero img{
+    width: 300px;
+    animation-duration: 2s ;
+}
+#about{ 
+    text-align: center;
+    padding: 60px 20px;
+    background-color: brown;
+    color: white;
+}
+
+#products{
+
+    text-align: center;
+    padding: 60px 20px;
+    background-color: palevioletred;
+    color: white;
+}
+.card{
+ 
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover{
+
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2)
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
